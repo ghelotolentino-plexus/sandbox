@@ -13,6 +13,8 @@ ghelo.ace@gmail.com
 Paste the ticket link below this prompt:
 
 ```
+cd ~/Documents/plexlogic/
+
 I am the assigned engineer for this, look at this ticket including all comments then describe to me what it is and the repositories we need to contribute to
 ```
 
@@ -27,7 +29,7 @@ Give me a git command ticket branch name, that follows the pattern of other tick
 ```text
 Give me a markdown copy paste of this ticket, omit if not applicable:
 
-<shorter jira title> [<ticket number>](<link>) [<pr number>@<repo name>](<link>) [circleci](<link>)
+<shorter jira title> [<ticket number>](<link>) [PR<pr number>@<repo name>](<link>) [circleci](<link>)
 ```
 
 ## PR Post at Slack (single repo)
@@ -35,7 +37,7 @@ Give me a markdown copy paste of this ticket, omit if not applicable:
 ```text
 Give me a markdown copy paste of this ticket, omit if not applicable:
 
-Hello Team, [<pr ticket number>@<repo name>](<pr link>) for <short jira tile> [<jira ticket key>](<jira link>) [circleci](<link>) :raised_hands:
+Hello Team, [PR<pr number>@<repo name>](<pr link>) for <short jira tile> [<jira ticket key>](<jira link>) [circleci](<link>) :raised_hands:
 ```
 
 ## PR Post at Slack (multiple repo)
@@ -45,6 +47,6 @@ Give me a markdown copy paste of this ticket, omit if not applicable:
 
 Hello Team, PRs for <short jira tile> [<jira ticket key>](<jira link>) :raised_hands:
 
-1. [<pr ticket number>@<repo name>](<pr link>) [circleci](<link>)
+1. [PR<pr number>@<repo name>](<pr link>) [circleci](<link>)
 2. (so on)
 ```
