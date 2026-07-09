@@ -23,7 +23,7 @@ cd ~/Documents/plexlogic/
 
 I am the assigned engineer for this, look at this ticket including all comments then describe to me what it is and the repositories we need to contribute to
 
-And given me a copy-paste text with this format:  `<jira ticket key>: very short ticket description`
+And give me a copy-paste text with this format:  `<jira ticket key>: very short ticket description`
 ```
 
 ## Checkout with common branch name
@@ -55,7 +55,7 @@ Give me a markdown copy paste of this ticket, omit if not applicable:
 ```text
 Give me a markdown copy paste of this ticket, omit if not applicable:
 
-Hello Team, [PR<pr number>@<repo name>](<pr link>) for <short jira tile> [<jira ticket key>](<jira link>) , [circleci](<link>) :raised_hands:
+Hello Team, [PR<pr number>@<repo name>](<pr link>) for <short jira title> [<jira ticket key>](<jira link>) , [circleci](<link>) :raised_hands:
 ```
 
 ## PR Post at Slack (multiple repo)
@@ -63,7 +63,7 @@ Hello Team, [PR<pr number>@<repo name>](<pr link>) for <short jira tile> [<jira 
 ```text
 Give me a markdown copy paste of this ticket, omit if not applicable:
 
-Hello Team, PRs for <short jira tile> [<jira ticket key>](<jira link>) :raised_hands:
+Hello Team, PRs for <short jira title> [<jira ticket key>](<jira link>) :raised_hands:
 
 1. [PR<pr number>@<repo name>](<pr link>) , [circleci](<link>)
 2. (so on)
@@ -76,5 +76,5 @@ Applicable to `legal-gateway` repo and other major repos
 ```text
 Give me a markdown copy paste of this ticket, omit if not applicable:
 
-Hello Team, I'll be triggering a staging deployment for <repo name> that includes [PR<pr number>@<repo name>](<pr link>) for <short jira tile> [<jira ticket key>](<jira link>) , [circleci](<link>) :raised_hands:
+Hello Team, I'll be triggering a staging deployment for <repo name> that includes [PR<pr number>@<repo name>](<pr link>) for <short jira title> [<jira ticket key>](<jira link>) , [circleci](<link>) :raised_hands:
 ```
