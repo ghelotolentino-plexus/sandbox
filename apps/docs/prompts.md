@@ -8,6 +8,8 @@ ghelo.tolentino@plxs.com.au
 ghelo.ace@gmail.com
 ```
 
+* https://www.mailinator.com/v4/public/inboxes.jsp?to=plexus-ghelo-001
+
 ```text
 plexus-ghelo-001@mailinator.com
 ```
@@ -16,12 +18,13 @@ plexus-ghelo-001@mailinator.com
 plexusAUD5432!
 ```
 
-|
+```text
+Juan
 ```
-Incontinentia
+
+```text
+Luna
 ```
-| b | c |
-|---|---|---|
 
 ## DSU Update so far
 
