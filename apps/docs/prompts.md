@@ -16,7 +16,11 @@ plexus-ghelo-001@mailinator.com
 plexusAUD5432!
 ```
 
-| ```Incontinentia``` | b | c |
+|
+```
+Incontinentia
+```
+| b | c |
 |---|---|---|
 
 ## DSU Update so far
