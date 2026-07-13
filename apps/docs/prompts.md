@@ -29,7 +29,12 @@ Luna
 ## DSU Update so far
 
 ```text
-timestamp + add DsuUpdate of summary my notes so far since last DSU meeting
+since the previous DSU
+
+can you give me Dsu update
+
+1 row per JIRA ticket `DsuJiraUpdate`
+1 row for others non-jira ticket updates `DsuOtherUpdate`
 ```
 
 ## Kickstart Ticket
