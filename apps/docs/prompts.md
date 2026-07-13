@@ -101,3 +101,44 @@ Give me a markdown copy paste of this ticket, omit if not applicable:
 
 Hello Team, I'll be triggering a staging deployment for <repo name> that includes [PR<pr number>@<repo name>](<pr link>) for <short jira title> [<jira ticket key>](<jira link>) , [circleci](<link>) :raised_hands:
 ```
+
+## Clear Cache and Authentication
+
+```javascript
+// Clears cookies, storage, caches, and service workers for the current site
+(async () => {
+  // Cookies (only works for cookies not marked HttpOnly)
+  document.cookie.split(';').forEach(c => {
+    const name = c.split('=')[0].trim();
+    document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/`;
+    document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=${location.hostname}`;
+  });
+
+  // Web storage
+  localStorage.clear();
+  sessionStorage.clear();
+
+  // IndexedDB
+  if (indexedDB.databases) {
+    const dbs = await indexedDB.databases();
+    dbs.forEach(db => indexedDB.deleteDatabase(db.name));
+  }
+
+  // Cache Storage
+  if (window.caches) {
+    const keys = await caches.keys();
+    await Promise.all(keys.map(k => caches.delete(k)));
+  }
+
+  // Unregister service workers
+  if (navigator.serviceWorker) {
+    const regs = await navigator.serviceWorker.getRegistrations();
+    await Promise.all(regs.map(r => r.unregister()));
+  }
+
+  console.log('Session cleared. Reloading...');
+  location.reload();
+})();
+```
+
+Then for HttpOnly Cookies:  DevTools > Application > Cookies
