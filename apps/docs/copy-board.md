@@ -57,6 +57,12 @@ And give me a copy-paste text with this format:  `<jira ticket key>: very short 
 Give me a git command ticket branch name, that follows the pattern of other ticket branch names on the remote repository
 ```
 
+## Git Commit
+
+```text
+Give me a git commit message, that follows the pattern of other git commits on remote repository
+```
+
 ## Create PR
 
 ```text
