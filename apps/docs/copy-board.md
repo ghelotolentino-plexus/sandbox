@@ -1,5 +1,7 @@
 # Copy Board
 
+Superseded by: [Copy Board @ Confluence](https://plexlogic.atlassian.net/wiki/spaces/AKT/pages/4646830136/Copy+Board)
+
 ## Logins
 
 ```text
@@ -49,6 +51,14 @@ cd ~/Documents/plexlogic/
 I am the assigned engineer for this, look at this ticket including all comments then describe to me what it is and the repositories we need to contribute to
 
 And give me a copy-paste text with this format:  `<jira ticket key>: very short ticket description`
+
+Then create a new page under:  https://plexlogic.atlassian.net/wiki/spaces/AKT/pages/4639391747/Regular+Task
+
+with the title:  `<jira ticket key>: very short ticket description`
+
+with a "Links" section with the jira ticket links
+
+Jira ticker link:
 ```
 
 ## Checkout with common branch name
